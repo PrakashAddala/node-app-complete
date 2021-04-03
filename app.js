@@ -49,8 +49,8 @@ const fileFilter = (req, file, cb) => {
   }
 };
 
-const serverKey = fs.readFileSync('server.key');
-const serverCert = fs.readFileSync('server.cert');
+// const serverKey = fs.readFileSync('server.key');
+// const serverCert = fs.readFileSync('server.cert');
 
 app.set('view engine', 'ejs');
 app.set('views', 'views');
