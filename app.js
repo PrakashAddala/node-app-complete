@@ -132,7 +132,7 @@ mongoose
     //   key: serverKey, cert: serverCert
     // }, app)
     //   .listen(process.env.PORT || 3000);
-    app.listen(process.env.port || 5000);
+    app.listen(process.env.PORT || 5000);
   })
   .catch(err => {
     console.log(err);
